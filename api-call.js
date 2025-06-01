@@ -24,7 +24,7 @@ async function getPredictedLabel(landmarks) {
     }
 
     const data = await response.json();
-    const apiLabel = data.label;
+    const apiLabel = data.prediction;
 
     const labelMap = {
       "like": "up",
