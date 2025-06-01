@@ -10,7 +10,7 @@ async function getPredictedLabel(landmarks) {
   const processed_t = extractLandmarks(landmarks);
 
   try {
-    const response = await fetch("https://mlops-hand-gesture-maze-api-production.up.railway.app/predict", {
+    const response = await fetch("https://mlops-hand-gesture-maze-api-production-87c1.up.railway.app/predict", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
