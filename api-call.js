@@ -30,8 +30,8 @@ async function getPredictedLabel(landmarks) {
     const labelMap = {
       "like": "up",
       "dislike": "down",
-      "stop": "left",
-      "stop_inverted": "right"
+      "one": "left",
+      "palm": "right"
     };
 
     const mappedLabel = labelMap[apiLabel] || null;
